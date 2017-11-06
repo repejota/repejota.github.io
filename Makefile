@@ -4,3 +4,6 @@ build: clean
 
 clean:
 	rm -rf public
+
+serve:
+	hugo server -D
