@@ -1,3 +1,4 @@
-baseURL = "http://example.org/"
+baseURL = "http://repejota.com/"
 languageCode = "en-us"
-title = "My New Hugo Site"
+title = "Raül Pérez"
+theme = "default"

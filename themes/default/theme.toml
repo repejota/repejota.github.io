@@ -1,0 +1,12 @@
+name = "default"
+license = "MIT"
+licenselink = "https://opensource.org/licenses/MIT"
+description = "Default themne for repejota.com."
+homepage = "http://repejota.com"
+tags = ["homepage", "default", "theme", "hugo"]
+features = []
+min_version = 0.19
+
+[author]
+  name = "repejota"
+  homepage = "http://repejota.com"
