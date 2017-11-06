@@ -3,7 +3,7 @@ build: clean
 	hugo
 	cd public
 	git add .
-	git comit -am "deploy website"
+	git commit -am "deploy website"
 	git push
 
 clean:
