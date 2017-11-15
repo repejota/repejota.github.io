@@ -1,0 +1,44 @@
+html, body {
+    font-family: 'Roboto Mono', monospace;
+    color: #333;
+}
+
+a {
+    color: #2c3e50;
+}
+
+a:hover {
+    color: #2980b9;
+}
+
+a:visited {
+    color: #34495e;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-family: 'Rubik', sans-serif;
+}
+
+h1 {
+    margin: 15px 0;
+    font-weight: bold;
+}
+
+footer {
+    margin: 15px 0;
+    font-size: 0.8em;
+}
+
+.social-networks {
+    margin-top: 45px; 
+    margin-bottom: 15px;
+}
+
+.social-networks ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+.social-networks ul li {
+    display: inline;
+}
