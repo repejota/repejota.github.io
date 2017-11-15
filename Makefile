@@ -7,3 +7,6 @@ clean:
 
 serve:
 	hugo server -D
+
+deploy: build
+	cd public && git purr origin master && make deploy
