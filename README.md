@@ -1,6 +1,6 @@
 # repejota.github.io
 
-This is the source code for repejota.com
+This is the source code for http://repejota.github.io and http://repejota.com.
 
 ## How to update content
 
