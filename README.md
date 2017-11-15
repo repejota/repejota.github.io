@@ -2,7 +2,7 @@
 
 This is the source code for repejota.com
 
-## How to update content
+## How to update content
 
 This is a Hugo based site. Check http://gohugo.io for more information.
 
@@ -39,7 +39,7 @@ $ make clean
 rm -rf public
 ```
 
-## How to deploy the site.
+## How to deploy the site.
 
 The site is currently deployed to github pages at http://repejota.github.io. 
 Using the *master* branch. All source code is on the default *develop* branch.
