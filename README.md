@@ -51,7 +51,5 @@ folder like in a normal repository.
 
 ```bash
 $ cd public
-$ git add .
-$ git commit
-$ git push
+$ make deploy
 ```
