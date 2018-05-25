@@ -18,7 +18,7 @@ sectionPagesMenu = "main"
     name = "Articles"
     title = "Articles"
     pre = "<i class='fas fa-rss'></i>"
-    url = "/articles"
+    url = "/articles/"
     weight = 10
 
   [[menu.main]]
@@ -26,7 +26,7 @@ sectionPagesMenu = "main"
     name = "Talks"
     title = "Talks"
     pre = "<i class='far fa-comment-alt'></i>"
-    url = "/talks"
+    url = "/talks/"
     weight = 10
 
   [[menu.main]]
@@ -34,7 +34,7 @@ sectionPagesMenu = "main"
     name = "Projects"
     title = "Projects"
     pre = "<i class='fas fa-project-diagram'></i>"
-    url = "/talks"
+    url = "/projects/"
     weight = 10
 
   [[menu.main]]
@@ -42,5 +42,5 @@ sectionPagesMenu = "main"
     name = "About"
     title = "About this site"
     pre = "<i class='fas fa-heart'></i>"
-    url = "/about"
+    url = "/about/"
     weight = 0
