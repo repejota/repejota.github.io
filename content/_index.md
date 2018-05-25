@@ -10,4 +10,4 @@ Hamburger filet mignon chuck jerky, tail ham hock boudin ground round bresaola c
 
 
 Pancetta short loin alcatra ribeye, swine pig brisket pork loin bacon ham hock kielbasa. Strip steak ham hock t-bone doner. T-bone pastrami jowl biltong pork, sirloin swine. Doner capicola pork chop, turducken shoulder ham landjaeger pork loin t-bone beef picanha. Pig fatback sausage pork bacon, meatloaf pork belly brisket filet mignon ham hock pork loin. Meatball short loin filet mignon pork belly pancetta.
-<
+
