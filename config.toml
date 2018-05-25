@@ -1,9 +1,10 @@
 baseURL = "http://repejota.com/"
 languageCode = "en-us"
-title = "Raül Pérez <repejota> website"
+title = "Raül Pérez"
 theme = "default"
 sectionPagesMenu = "main"
 copyright = "© 2018 - Raül Pérez"
+isMultilingual = false
 
 [menu]
   [[menu.main]]
