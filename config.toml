@@ -3,6 +3,7 @@ languageCode = "en-us"
 title = "Raül Pérez <repejota> website"
 theme = "default"
 sectionPagesMenu = "main"
+copyright = "© 2018 - Raül Pérez"
 
 [menu]
   [[menu.main]]
