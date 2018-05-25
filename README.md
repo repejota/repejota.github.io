@@ -6,12 +6,11 @@ This is the source code for http://repejota.github.io and http://repejota.com.
 
 This is a Hugo based site. Check http://gohugo.io for more information.
 
-Run the embebed HTTP server in developer mode:
+Run the embebed HTTP dev in developer mode:
 
 
 ```bash
-$ make serve
-hugo server -D
+$ make dev
 Started building sites ...
 
 Built site for language en:
