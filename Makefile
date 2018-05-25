@@ -1,4 +1,4 @@
-serve:	## Start development sever
+dev:	## Start development sever
 	hugo server -D
 
 build: clean
