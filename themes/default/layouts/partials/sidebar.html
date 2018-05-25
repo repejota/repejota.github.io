@@ -1,0 +1,28 @@
+<!-- sidebar start -->
+<ul class="nav flex-column">
+    {{ $currentPage := . }}
+    {{ range .Site.Menus.main }}
+      {{ if .HasChildren }}
+            <li class="nav-item">
+                <a class="nav-link {{ if $currentPage.HasMenuCurrent "main" . }}active{{ end }}" href="#">
+                    {{ .Pre }}
+                    <span>{{ .Name }}</span>
+                </a>
+            </li>
+            <ul class="nav flex-column sub-menu">
+                {{ range .Children }}
+                    <li class="nav-item">
+                        <a class="nav-link {{ if $currentPage.IsMenuCurrent "main" . }}active{{ end }}" href="{{ .URL }}">{{ .Name }}</a>
+                    </li>
+                {{ end }}
+            </ul>
+        {{ else }}
+            <li class="nav-item">
+                <a class="nav-link {{ if $currentPage.IsMenuCurrent "main" . }}active{{ end }}" href="{{ .URL }}">
+                    {{ .Pre }}
+                    <span>{{ .Name }}</span>
+                </a>
+            </li>
+        {{ end }}
+    {{ end }}
+</ul>

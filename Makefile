@@ -1,10 +1,10 @@
 dev:	## Start development sever
-	@hugo server -D
+	@hugo server -D --verbose
 
 build: clean
 build:	## Build production static site
 	@git clone -b master git@github.com:repejota/repejota.github.io.git public
-	hugo
+	hugo --verbose
 
 clean:	## Clean production buildt static site
 	@rm -rf public
