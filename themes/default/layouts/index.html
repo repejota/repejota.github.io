@@ -1,23 +1,31 @@
 {{ partial "header.html" . }}
-<main>
-<div class="container content">
-    <div class="row">
-        <div class="col-sm-2">
-            {{partial "sidebar.html" . }}
-        </div>
-        <div class="col-sm-10">
-            {{ .Content }}
-        <div>
-    </div>
-</div>
-<div class="container social-networks">
-    <ul>
-        <li><a href="https://twitter.com/repejota"><i class="fab fa-twitter-square fa-2x" aria-hidden="true"></i></a></li>
-        <li><a href="https://github.com/repejota"><i class="fab fa-github-square fa-2x" aria-hidden="true"></i></a></li>
-        <li><a href="https://linkedin.com/in/repejota"><i class="fab fa-linkedin fa-2x" aria-hidden="true"></i></a></li>
-        <li><a href="/index.xml"><i class="fa fa-rss-square fa-2x" aria-hidden="true"></i></a></li>
-        <li><a href="mailto:hello@repejota.com"><i class="fa fa-envelope-square fa-2x" aria-hidden="true"></i></a></li>
-    </ul>
-</div>
+<main class="container content">
+  <div class="row">
+    <aside id="sidebar" class="col-sm-2">
+      {{partial "sidebar.html" . }}
+    </aside>
+    <div id="content" class="col-sm-10">
+      {{ .Content }}
+      <div class="social-networks">
+        <ul class="list-inline">
+            <li class="list-inline-item">
+              <a href="https://twitter.com/repejota"><i class="fab fa-twitter-square fa-2x" aria-hidden="true"></i></a>
+            </li>
+            <li class="list-inline-item">
+              <a href="https://github.com/repejota"><i class="fab fa-github-square fa-2x" aria-hidden="true"></i></a>
+            </li>
+            <li class="list-inline-item">
+              <a href="https://linkedin.com/in/repejota"><i class="fab fa-linkedin fa-2x" aria-hidden="true"></i></a>
+            </li>
+            <li class="list-inline-item">
+              <a href="/index.xml"><i class="fa fa-rss-square fa-2x" aria-hidden="true"></i></a>
+            </li>
+            <li class="list-inline-item">
+              <a href="mailto:hello@repejota.com"><i class="fa fa-envelope-square fa-2x" aria-hidden="true"></i></a>
+            </li>
+        </ul>
+      </div>
+    <div>
+  </div>
 </main>
 {{ partial "footer.html" . }}

@@ -1,7 +1,7 @@
 ---
-title: "A Generic Makefile Help Target"
-date: 2018-05-25T17:25:15+02:00
-slug: "a-generic-makefile-help-target"
+title: "Makefile as a facade build system"
+date: 2018-05-26T11:40:36+02:00
+slug: "makefile-as-a-facade-build-system"
 draft: true
 ---
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ultrices quam
