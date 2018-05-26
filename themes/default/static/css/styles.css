@@ -29,9 +29,12 @@ footer {
     font-size: 0.8em;
 }
 
+main {
+  margin-top: 50px;
+}
+
 .social-networks {
-    margin-top: 45px; 
-    margin-bottom: 15px;
+    margin: 15px 0;
 }
 
 .social-networks ul {
