@@ -7,6 +7,10 @@
         </div>
         <div class="col-sm-10">
             {{ .Content }}
+
+            {{ range .Paginator.Pages }}
+              <a href="{{.Slug}}">{{.Title}}</a>
+            {{ end }}
         <div>
     </div>
 </div>
