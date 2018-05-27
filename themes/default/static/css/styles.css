@@ -1,28 +1,22 @@
-html, body {
-    font-family: 'Roboto Mono', monospace;
-    color: #333;
-}
-
+/** Links ----------------------------------------------------------------- **/
 a {
     color: #2c3e50;
 }
-
 a:hover {
     color: #2980b9;
 }
-
 a:visited {
     color: #34495e;
 }
 
-h1,h2,h3,h4,h5,h6 {
-    font-family: 'Rubik', sans-serif;
-}
+/** Headings -------------------------------------------------------------- **/
 
 h1 {
     margin: 15px 0;
     font-weight: bold;
 }
+
+/** HTML tags ------------------------------------------------------------- **/
 
 footer {
     margin: 15px 0;
@@ -30,8 +24,10 @@ footer {
 }
 
 main {
-  margin-top: 50px;
+    margin-top: 50px;
 }
+
+/** Stylesheets ----------------------------------------------------------- **/
 
 .social-networks ul {
     margin: 0;
@@ -40,4 +36,22 @@ main {
 }
 .social-networks ul li {
     display: inline;
+}
+.social-networks a {
+    transition: color .5s ease-out;
+}
+.social-networks a.twitter:hover {
+    color: #1da1f2;
+}
+.social-networks a.github:hover {
+    color: #333;
+}
+.social-networks a.linkedin:hover {
+    color: #0077b5;
+}
+.social-networks a.rss:hover {
+    color: #f26522;
+}
+.social-networks a.email:hover {
+    color: #2c3e50;
 }

@@ -35,7 +35,7 @@ isMultilingual = false
     identifier = "projects"
     name = "Projects"
     title = "Projects"
-    pre = "<i class='fas fa-project-diagram'></i>"
+    pre = "<i class='fas fa-folder'></i>"
     url = "/projects/"
     weight = 10
 
