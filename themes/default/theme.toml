@@ -1,12 +1,12 @@
 name = "default"
-license = "MIT"
-licenselink = "https://opensource.org/licenses/MIT"
+license = "Apache 2"
+licenselink = "https://github.com/repejota/repejota.github.io/blob/develop/LICENSE"
 description = "Default themne for repejota.com."
 homepage = "http://repejota.com"
-tags = ["homepage", "default", "theme", "hugo"]
-features = []
-min_version = 0.19
+tags = ["personal", "blog", "minimal", "simple", "clean"]
+features = ["minimal", "responsive", "simple", "clean", "light"]
+min_version = "0.30"
 
 [author]
-  name = "repejota"
+  name = "Raül Pérez"
   homepage = "http://repejota.com"
