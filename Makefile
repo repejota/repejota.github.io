@@ -1,5 +1,5 @@
 dev:	## Start development sever
-	@hugo server -D --verbose
+	@hugo server -D 
 
 build: clean
 build:	## Build production static site
