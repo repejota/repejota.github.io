@@ -17,16 +17,13 @@ a:visited {
 h1, h2, h3 {
   font-family: 'Oswald', sans-serif;
 }
-
 h4, h5, h6 {
   font-family: 'Roboto Condensed', sans-serif;
 }
-
 h1 {
     margin: 15px 0;
     font-weight: bold;
 }
-
 h4 a,
 h4 a:link,
 h4 a:visited {
@@ -39,12 +36,6 @@ h4 a:hover {
 }
 
 /** HTML tags ------------------------------------------------------------- **/
-
-footer {
-    margin: 15px 0;
-    font-size: 0.9em;
-}
-
 main {
     margin-top: 50px;
 }
@@ -60,7 +51,6 @@ main {
 aside ul.nav li.active {
   background-color: #d8d8d8;
 }
-
 aside ul.nav li i {
   width: 18px;
 }
@@ -69,12 +59,10 @@ aside ul.nav li i {
 .article-list article {
   margin: 30px 0;
 }
-
 .article-list article time.date {
   margin-bottom: 8px;
   color: #7f8c8d;
 }
-
 .article-list article .readmore {
   margin: 8px 0;
 }
@@ -114,4 +102,19 @@ aside ul.nav li i {
 }
 .social-networks a.email:hover {
     color: #2c3e50;
+}
+
+/* footer */
+footer {
+    margin: 15px 0;
+    font-size: 0.8em;
+}
+footer a,
+footer a:link,
+footer a:visited {
+  color: #7f8c8d;
+}
+footer a:hover {
+  color: #95a5a6;
+  text-decoration: none;
 }

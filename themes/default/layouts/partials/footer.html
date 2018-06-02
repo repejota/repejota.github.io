@@ -1,8 +1,16 @@
   <footer>
     <div class="container">
-      <hr/>
-      {{ .Site.Copyright }} -
-      <a href="https://creativecommons.org/licenses/by/3.0/">Some rights reserved</a>.
+      <div class="row">
+        <div class="col-sm-12"><hr/></div>
+      </div>
+      <div class="row">
+        <div class="col-sm-6 text-left">
+          {{ .Site.Copyright }}
+        </div>
+        <div class="col-sm-6 text-right">
+          This content is available under a <a href="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution License</a>.
+        </div>
+      </div>
     </div>
   </footer>
   {{ partial "ganalytics.html" . }}
