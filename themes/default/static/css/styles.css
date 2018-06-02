@@ -49,6 +49,11 @@ main {
 
 /** Stylesheets ----------------------------------------------------------- **/
 
+/* avatar */
+.avatar {
+  margin-bottom: 20px;
+}
+
 /* sidebar */
 aside ul.nav li.active {
   background-color: #d8d8d8;
@@ -61,6 +66,24 @@ aside ul.nav li i {
 /* article list */
 .article-list article {
   margin: 30px 0;
+}
+
+.article-list article time.date {
+  margin-bottom: 8px;
+  color: #7f8c8d;
+}
+
+.article-list article .readmore {
+  margin: 8px 0;
+}
+.article-list article .readmore a,
+.article-list article .readmore a:link,
+.article-list article .readmore a:visited {
+  color: #d35400;
+}
+.article-list article .readmore a:hover {
+  color: #e67e22;
+  text-decoration: none;
 }
 
 /* social networks */
