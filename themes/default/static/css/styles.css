@@ -14,8 +14,11 @@ a:visited {
 }
 
 /** Headings -------------------------------------------------------------- **/
+h1, h2, h3 {
+  font-family: 'Oswald', sans-serif;
+}
 
-h1, h2, h3, h4, h5, h6 {
+h4, h5, h6 {
   font-family: 'Roboto Condensed', sans-serif;
 }
 
@@ -24,7 +27,6 @@ h1 {
     font-weight: bold;
 }
 
-h4,
 h4 a,
 h4 a:link,
 h4 a:visited {
