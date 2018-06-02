@@ -6,8 +6,12 @@
             {{partial "sidebar.html" . }}
         </aside>
         <div class="col-sm-10">
-            <h2>{{ .Title }}</h2>
-            {{ .Content }}
+          <div class="article-view">
+            <article>
+              <h2>{{ .Title }}</h2>
+              {{ .Content }}
+            </article>
+          </div>
         <div>
     </div>
 </div>
